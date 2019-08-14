@@ -48,7 +48,7 @@ class Acta(models.Model):
         (3, '3'),
         (4, '4'),
         (5, '5'),
-        (5, '6'),
+        (6, '6'),
     )
     tipo = models.ForeignKey(TipoActa, on_delete=models.PROTECT)
     imagen = models.CharField(max_length=300)
